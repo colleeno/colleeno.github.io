@@ -1,3 +1,9 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
 /* Media Queries */
 $xs: 27em; // 432px @ base 16px
 $sm: 40em; // 640px @ base 16px
@@ -69,10 +75,8 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
   min-height: 100vh;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -94,6 +98,7 @@ button:focus-visible {
 @mixin dark-theme {
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  background: radial-gradient(circle at bottom, #1B2735 0%, #090A0F 100%);
 
   a:hover {
     color: #535bf2;
