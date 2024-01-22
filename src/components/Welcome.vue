@@ -145,7 +145,7 @@ export default {
 
 	.dark {
 		.text-content {
-			background: radial-gradient(circle at bottom, #1B2735 0%, #090A0F 100%);
+			background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
 		}
 	}
 

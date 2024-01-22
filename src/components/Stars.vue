@@ -1,6 +1,6 @@
 <template>
 	<div id="stars">
-		<div v-for="i in 150" :key="i" class="star"></div>
+		<div v-for="i in 175" :key="i" class="star"></div>
 	</div>
 </template>
 <script>
@@ -48,6 +48,9 @@ export default {
 	@keyframes moveStar {
 		0% {
 			transform: translateY(0);
+			opacity: 0;
+		}
+		10% {
 			opacity: 1;
 		}
 		50% {
