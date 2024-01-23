@@ -29,41 +29,41 @@ export default {
 
 <style lang="scss">
 	#stars {
-		position: fixed;
-		width: 100%;
 		height: 100vh;
 		overflow: hidden;
+		position: fixed;
+		width: 100%;
 
 		.star {
+			animation: moveStar linear infinite;
+			background: white;
+			height: 2px;
+			opacity: 0;
 			position: absolute;
 			width: 2px;
-			height: 2px;
-			background: white;
-			opacity: 0;
-			animation: moveStar linear infinite;
 		}
 	}
 
 
 	@keyframes moveStar {
 		0% {
-			transform: translateY(0);
 			opacity: 0;
+			transform: translateY(0);
 		}
 		10% {
 			opacity: 1;
 		}
 		50% {
-			transform: translateY(-50vh);
 			opacity: 0;
+			transform: translateY(-50vh);
 		}
 		51% {
-			transform: translateY(-100vh);
 			opacity: 0;
+			transform: translateY(-100vh);
 		}
 		80%, 100% {
-			transform: translateY(0);
 			opacity: 0;
+			transform: translateY(0);
 		}
 	}
 </style>

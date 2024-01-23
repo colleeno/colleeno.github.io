@@ -131,11 +131,13 @@ export default {
 		margin: 40px 0;
 	}
 	.text-content {
-		max-width: 80%;
-		position: relative;
+		border-radius: 16px;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 		height: 100%;
-		margin: 0 auto;
-		padding: 2em 0;
+		margin: 10% auto;
+		max-width: 80%;
+		padding: 2em;
+		position: relative;
 		z-index: 2;
 
 		@media screen and (min-width: $lg) {
@@ -145,14 +147,14 @@ export default {
 
 	.dark {
 		.text-content {
-			background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+			background: rgba(27, 39, 53, 0.7);
 		}
 	}
 
 	.theme-toggle {
 		position: fixed;
-		top: 2%;
 		right: 2%;
+		top: 2%;
 		z-index: 2;
 	}
 </style>
