@@ -53,8 +53,14 @@
 			</section>
 			<div class="theme-toggle">
 				<button @click="toggleMode">
-					<!-- <i class="fa fa-moon-o" aria-hidden="true" v-if=></i> -->
-					{{ oppositeMode }} mode
+					<span v-if="darkMode">
+						<i class="fa-solid fa-mug-saucer fa-sm nav-icon" aria-hidden="true"></i>
+						{{ oppositeMode }} mode
+					</span>
+					<span v-else>
+						<i class="fa-solid fa-moon fa-sm nav-icon" aria-hidden="true"></i>
+						{{ oppositeMode }} mode
+					</span>	
 				</button>
 			</div>
 		</div>
@@ -129,7 +135,9 @@ export default {
 
 	.border {
 		margin: 40px 0;
+		transform-origin: center;
 	}
+
 	.text-content {
 		border-radius: 16px;
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -156,5 +164,9 @@ export default {
 		right: 2%;
 		top: 2%;
 		z-index: 2;
+	}
+
+	.nav-icon {
+		margin-right: 0.5em;
 	}
 </style>

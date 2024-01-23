@@ -15,7 +15,7 @@ export const animate = {
     return anime({
       targets: '.border',
 			opacity: [0, 1],
-      width: ['0%', '100%'],
+			scaleX: [0, 1],
       easing: 'easeInOutQuad',
       duration: 500,
       delay: 300
