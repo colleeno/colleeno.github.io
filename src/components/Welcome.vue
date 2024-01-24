@@ -5,50 +5,44 @@
 		/>
 		<div class="text-content">
 			<header>
-				<h1 class="headline">Colleen O'Reilly</h1>
+				<h1 class="headline">Colleen O&#39;Reilly</h1>
 				<hr class="border"/>
 			</header>
 			<section class="copy">
 				<p>
-					Welcome! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque laoreet
-					suspendisse interdum consectetur libero id. Neque vitae tempus quam
-					pellentesque. Penatibus et magnis dis parturient montes nascetur ridiculus
-					mus. Ipsum dolor sit amet consectetur. Id aliquet risus feugiat in. Nunc
-					pulvinar sapien et ligula ullamcorper malesuada. Venenatis lectus magna
-					fringilla urna porttitor rhoncus dolor purus. Rhoncus est pellentesque elit
-					ullamcorper dignissim cras. Libero volutpat sed cras ornare arcu. Malesuada
-					fames ac turpis egestas. Id porta nibh venenatis cras. Vulputate ut pharetra
-					sit amet aliquam id diam maecenas. Ligula ullamcorper malesuada proin libero
-					nunc consequat interdum. Eu augue ut lectus arcu bibendum at varius vel.
-					Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Viverra
-					tellus in hac habitasse platea dictumst. Blandit cursus risus at ultrices mi
-					tempus imperdiet. Amet mauris commodo quis imperdiet massa tincidunt nunc.
-					Nisl suscipit adipiscing bibendum est ultricies integer.
+					Welcome! Nice to meet you. I&#39;m Colleen O&#39;Reilly, a software engineer living in Annapolis, MD.
+					My non-traditional journey into engineering has equipped me with a unique perspective and focus on the user experience.
+					I&#39;m passionate about the entire user journey - how they came to a website, what they&#39;re looking for, how they interact with the site, 
+					and how to make that experience as seamless and enjoyable as possible.
 				</p>
 				<p>
-					Quam viverra orci sagittis eu volutpat odio facilisis. Amet massa vitae
-					tortor condimentum lacinia. Nisi vitae suscipit tellus mauris a diam. Amet
-					justo donec enim diam vulputate. Morbi leo urna molestie at. Risus feugiat
-					in ante metus dictum. Pulvinar etiam non quam lacus suspendisse faucibus
-					interdum posuere. Hendrerit gravida rutrum quisque non tellus orci ac
-					auctor. Nulla at volutpat diam ut. Nullam vehicula ipsum a arcu cursus vitae
-					congue. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque.
-					Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.
-					Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Massa eget
-					egestas purus viverra accumsan in. Pretium viverra suspendisse potenti
-					nullam ac tortor. Magnis dis parturient montes nascetur ridiculus. Bibendum
-					at varius vel pharetra vel.
+					I graduated Cum Laude from James Madison University with a degree in Media Arts and Design. I studied basic design principles across 
+					a variety of media formats, including print, web, and video. Creating interactive experiences was always my favorite, and was always drawn 
+					to the idea of a career in Web development or design.
 				</p>
 				<p>
-					Ultrices eros in cursus turpis massa tincidunt dui ut. Adipiscing bibendum
-					est ultricies integer quis auctor elit sed vulputate. Sem fringilla ut morbi
-					tincidunt augue interdum. Sit amet consectetur adipiscing elit. Enim sed
-					faucibus turpis in eu mi bibendum. Adipiscing enim eu turpis egestas pretium
-					aenean pharetra magna ac. Nunc eget lorem dolor sed viverra. Accumsan lacus
-					vel facilisis volutpat est velit. Elementum nibh tellus molestie nunc non
-					blandit. Turpis egestas maecenas pharetra convallis posuere morbi leo urna.
-					Non tellus orci ac auctor augue mauris augue neque gravida.
+					My career started at CustomInk.com, where I honed my attention to detail in the art department. My curiosity to learn more about the
+					full customer experience led me to an order coordination role. From there I joined the CRM marketing team, where I learned the ins and outs 
+					of email marketing, segmentation, A/B testing, and got my first taste of HTML and CSS to edit email templates and landing pages.
+				</p>
+				<p>
+					I then joined LivingSocial, a small startup at the time, where I thrived in a fast-paced environment, gained leadership experience, 
+					and deepened my coding skills on the email team. Wanting to learn more about web development, I took a part time Front-End development course at General Assembly, 
+					and was hooked. From there I took a full stack immersive course at General Assembly and decided to make the career switch to software engineering.
+				</p>
+				<p>
+					I&#39;m currently working at Framebridge, where I was thrilled at the opportunitity to join several former LivingSocial colleagues. I started as a Front-End
+					engineer, assigned to work with the marketing organization. After about a year working exclusively with marketing, I was asked to move to a full stack software engineering 
+					role with our consumer team, focused on our core site experience. It&#39;s been great to expand my knowledge and experience, working on our Rails backend, 
+					and modernizing our front end (ex: AngularJS to Vue.js). Most recently I played a pivotal role in the migration of the consumer-facing website to Shopify, 
+					including a comprehensive site redesign. This encompassed the rewriting of core site flows, development of new APIs using GraphQL, 
+					and implementating various enhancements for an optimized user experience. As a small team, I love having the ability to work directly with our design and product 
+					teams, and provide input and suggestions on new builds and updating current features.
+				</p>
+				<p>
+					When I&#39;m not working, I love spending time outdoors, visiting Bethany Beach, and spending with my awesome rescue dog Weezer. 
+					If you&#39;d like to connect, please find me at <>. 
+					You can click here to download the hardcopy of my resume. Thanks for stopping by!
 				</p>
 			</section>
 			<div class="theme-toggle">
