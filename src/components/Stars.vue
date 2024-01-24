@@ -1,27 +1,46 @@
 <template>
 	<div id="stars">
-		<div v-for="i in 175" :key="i" class="star"></div>
+		<div 
+			v-for="star in stars"
+			:key="star.id"
+			class="star"
+			ref="star"
+			:style="{
+				animationDelay: star.animationDelay + 's',
+				animationDuration: star.animationDuration + 's',
+				top: star.top + 'vh',
+				left: star.left + 'vw',
+				width: star.size + 'px',
+				height: star.size + 'px'
+			}"
+		>
+		</div>
 	</div>
 </template>
 <script>
-
 export default {
+	data () {
+		return {
+			stars: []
+		}
+	},
 	mounted () {
-		this.animateStars();
+		this.generateStars(175);
 	},
 	methods: {
-		animateStars () {
-			const stars = this.$el.querySelectorAll('.star');
-    	stars.forEach(star => {
+		generateStars(count) {
+			for (let i = 0; i < count; i++) {
 				const duration = Math.random() * 10 + 10;
-				star.style.animationDelay = `${Math.random() * duration}s`;
-				star.style.animationDuration = `${duration}s`;
-				star.style.top = `${Math.random() * 100}vh`;
-				star.style.left = `${Math.random() * 100}vw`;
 				const size = Math.floor(Math.random() * 3) + 1;
-				star.style.width = size;
-				star.style.height = size;
-		});
+				this.stars.push({
+					id: i,
+					animationDelay: Math.random() * duration,
+					animationDuration: duration,
+					top: Math.random() * 100,
+					left: Math.random() * 100,
+					size: size
+				});
+			}
 		}
 	},
 }
