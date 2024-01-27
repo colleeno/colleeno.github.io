@@ -28,11 +28,11 @@ $xl: 78em; // 1248px @ base 16px
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #008080;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #009999;
 }
 
 body {
@@ -85,10 +85,6 @@ button:focus-visible {
   color: #213547;
   background-color: #ffffff;
 
-  a:hover {
-    color: #747bff;
-  }
-
   button {
     color: #213547;
     background-color: #ffffff;
@@ -99,10 +95,6 @@ button:focus-visible {
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-
-  a:hover {
-    color: #535bf2;
-  }
 
   button {
     color: rgba(255, 255, 255, 0.87);
