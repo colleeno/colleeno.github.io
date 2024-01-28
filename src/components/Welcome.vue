@@ -39,7 +39,7 @@
 					teams, and provide input and suggestions on new builds and updating current features.
 				</p>
 				<p>
-					When I&#39;m not working, I love spending time outdoors, visiting Bethany Beach, and spending with my awesome rescue dog Weezer. 
+					When I&#39;m not working, I love spending time outdoors, visiting Bethany Beach, and playing with my awesome rescue dog Weezer. 
 					If you&#39;d like to connect, please reach out to me on <a href="https://www.linkedin.com/in/colleen-o-reilly-a207579/" target="_blank">LinkedIn</a>,
 					and you can find me on github as <a href="https://github.com/colleeno" target="_blank">colleeno</a>. 
 					You can click <a href="/Resume_ColleenOReilly.pdf" download="Resume_Colleen O'Reilly">here</a> to download the hardcopy of my resume. 
