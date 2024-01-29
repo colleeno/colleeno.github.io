@@ -3,6 +3,10 @@
 		<Stars 
 			v-if="darkMode"
 		/>
+		<StyleMode
+			:mode="mode"
+			@setMode="setMode($event)"
+		/>
 		<div class="text-content">
 			<header>
 				<h1 class="headline">Colleen O&#39;Reilly</h1>
@@ -46,28 +50,18 @@
 					Thanks for stopping by!
 				</p>
 			</section>
-			<div class="theme-toggle">
-				<button @click="toggleMode">
-					<span v-if="darkMode">
-						<i class="fa-solid fa-mug-saucer fa-sm nav-icon" aria-hidden="true"></i>
-						{{ oppositeMode }} mode
-					</span>
-					<span v-else>
-						<i class="fa-solid fa-moon fa-sm nav-icon" aria-hidden="true"></i>
-						{{ oppositeMode }} mode
-					</span>	
-				</button>
-			</div>
 		</div>
-	</div>	
+	</div>
 </template>
 <script>
 import Stars from './Stars.vue'
+import StyleMode from './StyleMode.vue'
 import { animate } from '../assets/animations.js'
 
 export default {
 	components: {
-		Stars
+		Stars,
+		StyleMode
 	},
 	data () {
 		return {
@@ -79,22 +73,8 @@ export default {
 		this.detectAndSetMode();	
 	},
 	computed: {
-		toggleMode () {
-			if (this.mode === 'light') {
-				this.mode = 'dark';
-			} else {
-				this.mode = 'light';
-			}
-		},
 		darkMode () {
 			return Boolean(this.mode === 'dark');
-		},
-		oppositeMode () {
-			if (this.mode === 'light') {
-				return 'dark';
-			} else {
-				return 'light';
-			}
 		}
 	},
 	methods: {
@@ -110,6 +90,9 @@ export default {
 			} else {
 				this.mode = 'light';
 			}
+		},
+		setMode (mode) {
+			this.mode = mode;
 		}
 	},
 	watch: {
@@ -160,16 +143,5 @@ export default {
 		.text-content {
 			background: rgba(27, 39, 53, 0.7);
 		}
-	}
-
-	.theme-toggle {
-		position: fixed;
-		right: 2%;
-		top: 2%;
-		z-index: 2;
-	}
-
-	.nav-icon {
-		margin-right: 0.5em;
 	}
 </style>
