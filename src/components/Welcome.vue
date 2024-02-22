@@ -14,7 +14,7 @@
 			</header>
 			<section class="copy">
 				<p>
-					Welcome! Nice to meet you. I&#39;m Colleen O&#39;Reilly, a software engineer living in Annapolis, MD.
+					Welcome! Nice to meet you. I&#39;m Colleen O&#39;Reilly, a Senior Software Engineer living in Annapolis, MD.
 					With a background in design and marketing, I&#39;m passionate about the entire user journey - how they came to a website, 
 					what they&#39;re looking for, how they interact with the site, 
 					and how to make that experience as seamless and enjoyable as possible.
