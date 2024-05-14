@@ -37,13 +37,13 @@
 					I&#39;m currently working at Framebridge, where I have been for the past 5 years. I started as a Front-End
 					engineer, assigned to work with the marketing organization. After about a year working exclusively with marketing, I was asked to move to a full stack software engineering 
 					role with our consumer team, focused on our core site experience. It&#39;s been great to expand my knowledge and experience, working on our Rails backend, 
-					and modernizing our front end (ex: AngularJS to Vue.js). Most recently I played a pivotal role in the migration of the consumer-facing website to Shopify, 
-					including a comprehensive site redesign. This encompassed the rewriting of core site flows, development of new APIs using GraphQL, 
+					and modernizing our front end. Most recently I played a pivotal role in the migration of the consumer-facing website to Shopify, 
+					including a comprehensive site redesign. This encompassed the rewriting of core site flows, development of new APIs, 
 					and implementating various enhancements for an optimized user experience. As a small team, I love having the ability to work directly with our design and product 
 					teams, and provide input and suggestions on new builds and updating current features.
 				</p>
 				<p>
-					When I&#39;m not working, I love spending time outdoors, visiting Bethany Beach, and playing with my awesome rescue dog Weezer. 
+					When I&#39;m not working, I love spending time outdoors and playing with my awesome rescue dog <a href="https://www.instagram.com/weezersworld/" rarget="_blank">Weezer</a>. 
 					If you&#39;d like to connect, please reach out to me on <a href="https://www.linkedin.com/in/colleen-o-reilly-a207579/" target="_blank">LinkedIn</a>,
 					and you can find me on github as <a href="https://github.com/colleeno" target="_blank">colleeno</a>. 
 					You can click <a href="/Resume_ColleenOReilly.pdf" download="Resume_Colleen O'Reilly">here</a> to download the hardcopy of my resume. 
@@ -124,18 +124,17 @@ export default {
 		border-radius: 16px;
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 		height: 100%;
-		margin: 10% auto;
+		margin: 2em auto;
 		max-width: 90%;
 		padding: 2em;
 		position: relative;
-		z-index: 2;
 
 		@media screen and (min-width: $md) {
 			max-width: 80%;
 		}
 
 		@media screen and (min-width: $lg) {
-			max-width: 70%;
+			max-width: 60%;
 		}
 	}
 
